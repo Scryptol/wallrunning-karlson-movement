@@ -71,9 +71,6 @@ public class PlayerMovement : MonoBehaviour
         playerScale = transform.localScale;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        vn = pp.GetSetting<Vignette>();
-        cg = pp.GetSetting<ColorGrading>();
     }
 
 
